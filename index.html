@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CreativeVerse: Create. Learn. Grow.</title>
+  <meta name="description" content="CreativeVerse brings art, courses, well-being, and technology together in one place, so you can make things, learn how, and keep going.">
+  <meta name="theme-color" content="#101124">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJub25lIiB4bWxuczpjMnBhPSJodHRwOi8vYzJwYS5vcmcvbWFuaWZlc3QiPjxtZXRhZGF0YT48YzJwYTptYW5pZmVzdD5BQUFXZ21wMWJXSUFBQUFlYW5WdFpHTXljR0VBRVFBUWdBQUFxZ0E0bTNFRFl6SndZUUFBQUJaY2FuVnRZZ0FBQUVkcWRXMWtZekp0WVFBUkFCQ0FBQUNxQURpYmNRTjFjbTQ2WXpKd1lUb3lObVZtTVRCak5DMDNObU13TFRRd056Z3RZakkxTWkwMVlXRTJOVEJpWkdJeU1HUUFBQUFEbDJwMWJXSUFBQUFwYW5WdFpHTXlZWE1BRVFBUWdBQUFxZ0E0bTNFRFl6SndZUzVoYzNObGNuUnBiMjV6QUFBQUFMeHFkVzFpQUFBQVJHcDFiV1JqWW05eUFCRUFFSUFBQUtvQU9KdHhFMk15Y0dFdWFXNW5jbVZrYVdWdWRDNTJNd0FBQUFBWVl6SnphQnpXamROSVdPWmRHczhuKzhWQjZYUUFBQUJ3WTJKdmNxTnBaR002Wm05eWJXRjBiV2x0WVdkbEwzTjJaeXQ0Yld4cWFXNXpkR0Z1WTJWSlJIZ3NlRzF3T21scFpEb3hOR1poT1dNek55MHdNMkl4TFRSbE56UXRZVFJsTVMwd1pqQTBZMk5rTURWa1pUbHNjbVZzWVhScGIyNXphR2x3YUhCaGNtVnVkRTltQUFBQjRtcDFiV0lBQUFCQmFuVnRaR05pYjNJQUVRQVFnQUFBcWdBNG0zRVRZekp3WVM1aFkzUnBiMjV6TG5ZeUFBQUFBQmhqTW5Ob2pJWnRBNFpDbUdxdzUzQ05hZ21ETFFBQUFabGpZbTl5b21kaFkzUnBiMjV6Z3FKbVlXTjBhVzl1YTJNeWNHRXViM0JsYm1Wa2FuQmhjbUZ0WlhSbGNuT2hhMmx1WjNKbFpHbGxiblJ6Z2FKamRYSnNlQzF6Wld4bUkycDFiV0ptUFdNeWNHRXVZWE56WlhKMGFXOXVjeTlqTW5CaExtbHVaM0psWkdsbGJuUXVkak5rYUdGemFGZ2dBV25XSjk2aS85VTJFalRhMGlpY244dXhsaTZnaTZVYW9talRVVElhZ1JDa1ptRmpkR2x2Ym5nZFkyOXRMbUZ1ZEdoeWIzQnBZeTVqYkdGMVpHVXVjSEp2ZG1sa1pXUnFjR0Z5WVcxbGRHVnljNkY0SDJOdmJTNWhiblJvY205d2FXTXViM0pwWjJsdUxXTnZibVpwWkdWdVkyVm5kVzVyYm05M2JtdGtaWE5qY21sd2RHbHZibmhtUTJ4aGRXUmxJSEJ5YjNacFpHVmtJSFJvYVhNZ1ptbHNaU0JoZENCMGFHVWdjbVZ4ZFdWemRDQnZaaUJoSUhWelpYSWdZVzVrSUcxaGVTQm9ZWFpsSUdOeVpXRjBaV1FnYjNJZ2JXOWthV1pwWldRZ2RHaGxJR1pwYkdVZ1kyOXVkR1Z1ZEhNdWJYTnZablIzWVhKbFFXZGxiblNoWkc1aGJXVm1RMnhoZFdSbGNtRnNiRUZqZEdsdmJuTkpibU5zZFdSbFpQVUFBQURJYW5WdFlnQUFBRUJxZFcxa1kySnZjZ0FSQUJDQUFBQ3FBRGliY1JOak1uQmhMbWhoYzJndVpHRjBZUUFBQUFBWVl6SnphSzkzYUl5ZktmN1AwdDh4VG5DZFY0WUFBQUNBWTJKdmNxVmpZV3huWm5Ob1lUSTFObU53WVdSTkFBQUFBQUFBQUFBQUFBQUFBR1JvWVhOb1dDQ2hDY0g0Tzd6QVRSL0ZDK3hYZUM3dTczaU9GaWgrNS9IN0VvVS9iY0NpdG1SdVlXMWxibXAxYldKbUlHMWhibWxtWlhOMGFtVjRZMngxYzJsdmJuT0JvbVZ6ZEdGeWRCaWVabXhsYm1kMGFCa2VCQUFBQWo1cWRXMWlBQUFBSjJwMWJXUmpNbU5zQUJFQUVJQUFBS29BT0p0eEEyTXljR0V1WTJ4aGFXMHVkaklBQUFBQ0QyTmliM0tsWTJGc1oyWnphR0V5TlRacGMybG5ibUYwZFhKbGVFMXpaV3htSTJwMWJXSm1QUzlqTW5CaEwzVnlianBqTW5CaE9qSTJaV1l4TUdNMExUYzJZekF0TkRBM09DMWlNalV5TFRWaFlUWTFNR0prWWpJd1pDOWpNbkJoTG5OcFoyNWhkSFZ5WldwcGJuTjBZVzVqWlVsRWVDeDRiWEE2YVdsa09qRmpZemcwTjJJd0xUWmxaV1V0TkRjek55MDVZelF6TFRKaVpUaGxNVGt4T1RVNVkzSmpjbVZoZEdWa1gyRnpjMlZ5ZEdsdmJuT0RvbU4xY214NExYTmxiR1lqYW5WdFltWTlZekp3WVM1aGMzTmxjblJwYjI1ekwyTXljR0V1YVc1bmNtVmthV1Z1ZEM1Mk0yUm9ZWE5vV0NBQmFkWW4zcUwvMVRZU05OclNLSnlmeTdHV0xxQ0xwUnFpYU5OUk1ocUJFS0pqZFhKc2VDcHpaV3htSTJwMWJXSm1QV015Y0dFdVlYTnpaWEowYVc5dWN5OWpNbkJoTG1GamRHbHZibk11ZGpKa2FHRnphRmdnRzF0cUkwa2wvUzRJNHRBOTFkOG5VekV2SmxUcmpBR2I0VWczUTFhQUFnbWlZM1Z5YkhncGMyVnNaaU5xZFcxaVpqMWpNbkJoTG1GemMyVnlkR2x2Ym5Ndll6SndZUzVvWVhOb0xtUmhkR0ZrYUdGemFGZ2dERTlUaVNINDBXNG4wcFA5d2VSS0ZGdWdPMklKZUYyOTAyczA3aXk2WWJ4MFkyeGhhVzFmWjJWdVpYSmhkRzl5WDJsdVptK2paRzVoYldWdlFXNTBhSEp2Y0dsaklFWnBiR1Z6WjNabGNuTnBiMjVsTVM0d0xqQnJjM0JsWTFabGNuTnBiMjVsTWk0MExqQUFBQkE0YW5WdFlnQUFBQ2hxZFcxa1l6Smpjd0FSQUJDQUFBQ3FBRGliY1FOak1uQmhMbk5wWjI1aGRIVnlaUUFBQUJBSVkySnZjdEtFV1FJU29nRW1HQ0ZaQWdvd2dnSUdNSUlCamFBREFnRUNBaFJBNWFBSzdzSTUwTDY0Zy9vR1FnVTlaMVVUQURBS0JnZ3Foa2pPUFFRREF6QkpNUmN3RlFZRFZRUUtFdzVCYm5Sb2NtOXdhV01zSUZCQ1F6RXVNQ3dHQTFVRUF4TWxRVzUwYUhKdmNHbGpJRU52Ym5SbGJuUWdRM0psWkdWdWRHbGhiSE1nVW05dmRDQkRRVEFlRncweU5qQTRNRGN4T0RRek5UWmFGdzB5T0RBNE1EWXhPVFF6TlRaYU1FUXhGekFWQmdOVkJBb1REa0Z1ZEdoeWIzQnBZeXdnVUVKRE1Ta3dKd1lEVlFRREV5QkJiblJvY205d2FXTWdRMnhoZFdSbElFTnZiblJsYm5RZ1UybG5ibWx1WnpCWk1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhBMElBQkpoNkNtdkxVQmdGRk5VMHZVS2xPVnRFNmRqZDE3TDVTdXdYMExlbUZpc0JNM2RrZC8zY3lqeEZBM1FvNVM0NmZYMC9paFkwVlo3bWZiOUtGNzAzdDVPaldEQldNQTRHQTFVZER3RUIvd1FFQXdJSGdEQVZCZ05WSFNVRURqQU1CZ29yQmdFRUFZUG9YZ0lCTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVemxIaUJJRk9aRnNqK09QRXo1bytuTUhYWE1Jd0NnWUlLb1pJemowRUF3TURad0F3WkFJd01YTWRGSjRCZXRMTFZZN09SdUU5bm9xYmJBWk9abi9hQXJYeVR3RkFaZktyUHp4RjJ2UG9KTmYxK1VDZGcxWEdBakJ3WDF6ZDlXR3FZa3FtTDVTRnF3MVF5U2pyMXpKZnBKTTkrMXJkRHdTUExNT1BPakt1aVhqb1UvcFVVZUc5UndtaFkzQmhaRmtObmdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFQWllRTnc2WVZKWGlDQVA4R0F3YUwwYU5IZ05JQ1NIdXBLL0M5UHdmbFJtTWVnTDU5S0EvSzZzUmhxWXNqMjBqbmFWdjRPem92WitQaHduYXYzaWp0TG8zQWs9PC9jMnBhOm1hbmlmZXN0PjwvbWV0YWRhdGE+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iNCIgeTE9IjQiIHgyPSIyOCIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzc5NTdGRiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzU1RTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxlbGxpcHNlIGN4PSIxNiIgY3k9IjE2IiByeD0iMTMiIHJ5PSI2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggMTYgMTYpIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjYiIGZpbGw9InVybCgjZykiLz48Y2lyY2xlIGN4PSIyNy41IiBjeT0iOS45IiByPSIyLjUiIGZpbGw9IiNGRjgwNjYiLz48L3N2Zz4=">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+/* ==========================================================================
+   CreativeVerse — style.css
+   Structure: 1 Tokens · 2 Base · 3 Buttons · 4 Header · 5 Hero ·
+              6 Sections · 7 Feature cards · 8 Testimonials · 9 CTA ·
+              10 Footer · 11 Responsive · 12 Reduced motion
+   ========================================================================== */
+
+/* 1. Design tokens ------------------------------------------------------- */
+:root {
+  /* Color */
+  --midnight: #101124;
+  --violet: #7957FF;
+  --cyan: #55E6FF;
+  --coral: #FF8066;
+  --soft-white: #F8F7FF;
+  --lavender: #DCD2FF;
+
+  --text: var(--soft-white);
+  --text-muted: rgba(220, 210, 255, 0.78);
+  --border: rgba(220, 210, 255, 0.16);
+  --glass: rgba(248, 247, 255, 0.06);
+
+  /* Type */
+  --font-head: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Spacing (8px grid) */
+  --s-1: 8px;
+  --s-2: 16px;
+  --s-3: 24px;
+  --s-4: 32px;
+  --s-5: 40px;
+  --s-6: 48px;
+  --s-8: 64px;
+  --s-12: 96px;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-xl: 36px;
+  --radius-pill: 999px;
+}
+
+/* Pillar accents, shared by feature cards and testimonials */
+.accent-create   { --accent: #FF8066; --accent-rgb: 255, 128, 102; --accent-text: #FF9C86; }
+.accent-learn    { --accent: #7957FF; --accent-rgb: 121, 87, 255;  --accent-text: #B5A3FF; }
+.accent-grow     { --accent: #DCD2FF; --accent-rgb: 220, 210, 255; --accent-text: #DCD2FF; }
+.accent-innovate { --accent: #55E6FF; --accent-rgb: 85, 230, 255;  --accent-text: #55E6FF; }
+
+/* 2. Base ---------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  font: 400 1rem/1.65 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background:
+    radial-gradient(900px 600px at 85% -5%, rgba(121, 87, 255, 0.28), transparent 60%),
+    radial-gradient(700px 500px at -5% 30%, rgba(85, 230, 255, 0.09), transparent 60%),
+    var(--midnight);
+  background-repeat: no-repeat;
+}
+
+img, svg { display: block; max-width: 100%; }
+h1, h2, h3, p, figure, blockquote { margin: 0; }
+a { color: inherit; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.container {
+  width: min(1200px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--s-2);
+  top: -64px;
+  z-index: 100;
+  padding: 12px 20px;
+  border-radius: var(--radius-sm);
+  background: var(--soft-white);
+  color: var(--midnight);
+  font-weight: 600;
+}
+.skip-link:focus { top: 12px; }
+
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* 3. Buttons ------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0 28px;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-pill);
+  font: 600 1rem/1 var(--font-head);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+              background-color 0.2s ease, border-color 0.2s ease;
+}
+.btn:focus-visible { outline-offset: 4px; border-radius: var(--radius-pill); }
+.btn-sm { height: 40px; padding: 0 20px; font-size: 0.9375rem; }
+
+.btn-primary { background: var(--coral); color: var(--midnight); }
+.btn-primary:hover {
+  background: #FF937C;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(255, 128, 102, 0.38);
+}
+.btn-primary:active {
+  background: #F2705A;
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.btn-secondary {
+  background: var(--glass);
+  color: var(--soft-white);
+  border-color: var(--border);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.btn-secondary:hover {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 4px rgba(85, 230, 255, 0.12);
+  transform: translateY(-2px);
+}
+.btn-secondary:active { transform: translateY(0); box-shadow: none; }
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* 4. Header -------------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+.site-header.is-scrolled {
+  background: rgba(16, 17, 36, 0.78);
+  border-bottom-color: var(--border);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font: 600 1.25rem/1 var(--font-head);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+.brand img { width: 32px; height: 32px; }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--s-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-links a:not(.btn) {
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.nav-links a:not(.btn):hover { color: var(--soft-white); }
+.nav-links a[aria-current="true"] {
+  color: var(--soft-white);
+  border-bottom-color: var(--coral);
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--glass);
+  color: var(--soft-white);
+  cursor: pointer;
+}
+.nav-toggle .icon-close { display: none; }
+.nav-toggle[aria-expanded="true"] .icon-open { display: none; }
+.nav-toggle[aria-expanded="true"] .icon-close { display: block; }
+
+/* 5. Hero ---------------------------------------------------------------- */
+.hero { padding: var(--s-8) 0 var(--s-12); }
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: center;
+  gap: var(--s-8);
+}
+
+.hero h1 {
+  padding-bottom: 0.08em;
+  font: 700 clamp(2.5rem, 6.2vw, 4rem)/1.08 var(--font-head);
+  letter-spacing: -0.025em;
+  background: linear-gradient(100deg, #F8F7FF 0%, #DCD2FF 38%, #55E6FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero .lead { max-width: 46ch; margin-top: var(--s-3); }
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin-top: var(--s-5);
+}
+
+.hero-art {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  margin-inline: auto;
+  aspect-ratio: 1;
+}
+.hero-art > svg { width: 100%; height: 100%; }
+
+.chip {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(16, 17, 36, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1;
+}
+.chip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dot);
+  box-shadow: 0 0 10px var(--dot);
+}
+.chip-create   { --dot: #FF8066; top: 10%;    left: 0; }
+.chip-learn    { --dot: #7957FF; top: 24%;    right: 0; }
+.chip-grow     { --dot: #DCD2FF; bottom: 18%; left: 3%; }
+.chip-innovate { --dot: #55E6FF; bottom: 6%;  right: 8%; }
+
+/* One orchestrated entrance on page load */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes appear {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.hero h1,
+.hero .lead,
+.hero-actions { animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.hero .lead { animation-delay: 0.12s; }
+.hero-actions { animation-delay: 0.24s; }
+.hero-art { animation: appear 1.2s ease 0.2s both; }
+
+/* 6. Sections ------------------------------------------------------------ */
+.section { padding-block: var(--s-12); }
+
+.section-head {
+  max-width: 640px;
+  margin-bottom: 56px;
+}
+.section-head h2,
+.cta-panel h2 {
+  font: 600 clamp(2rem, 4vw, 3rem)/1.15 var(--font-head);
+  letter-spacing: -0.02em;
+}
+.section-head .lead { margin-top: var(--s-2); }
+
+/* 7. Feature cards ------------------------------------------------------- */
+.bento {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--s-3);
+}
+
+.card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  grid-column: span 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--s-2);
+  min-height: 320px;
+  padding: var(--s-5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--glass);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.card-wide   { grid-column: span 7; }
+.card-narrow { grid-column: span 5; }
+
+.card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -140px;
+  right: -120px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent) 0%, transparent 68%);
+  opacity: 0.26;
+  transition: opacity 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(var(--accent-rgb), 0.6);
+  box-shadow: 0 24px 60px -24px rgba(var(--accent-rgb), 0.5);
+}
+.card:hover::before { opacity: 0.4; }
+
+.card-icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid rgba(var(--accent-rgb), 0.4);
+  border-radius: 16px;
+  background: rgba(var(--accent-rgb), 0.16);
+  color: var(--accent-text);
+}
+
+.card h3 {
+  margin-top: var(--s-1);
+  font: 600 1.5rem/1.25 var(--font-head);
+  letter-spacing: -0.01em;
+}
+.card p {
+  max-width: 38ch;
+  color: var(--text-muted);
+}
+
+.card-art {
+  position: absolute;
+  top: var(--s-3);
+  right: var(--s-3);
+  width: 150px;
+  height: 100px;
+  pointer-events: none;
+}
+.card-art circle { mix-blend-mode: screen; }
+
+.card-link {
+  margin-top: auto;
+  padding-top: var(--s-1);
+  color: var(--accent-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--accent-rgb), 0.5);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  transition: text-decoration-color 0.2s ease;
+}
+.card-link:hover { text-decoration-color: var(--accent); }
+
+/* 8. Testimonials -------------------------------------------------------- */
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-3);
+  align-items: start;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-4);
+  padding: var(--s-4);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--glass);
+}
+.quotes .quote:nth-child(2) { margin-top: var(--s-4); }
+
+.quote blockquote p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.quote figcaption {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(var(--accent-rgb), 0.5);
+  border-radius: 50%;
+  background: rgba(var(--accent-rgb), 0.2);
+  color: var(--accent-text);
+  font: 600 0.875rem/1 var(--font-head);
+}
+.who { display: grid; line-height: 1.35; }
+.who strong { font-weight: 600; }
+.who span { color: var(--text-muted); font-size: 0.875rem; }
+
+.note {
+  margin-top: var(--s-4);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+/* 9. Final call to action ------------------------------------------------ */
+.cta-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: var(--s-12) var(--s-4);
+  border: 1px solid rgba(220, 210, 255, 0.22);
+  border-radius: var(--radius-xl);
+  text-align: center;
+  background:
+    radial-gradient(600px 360px at 50% 0%, rgba(121, 87, 255, 0.55), transparent 70%),
+    radial-gradient(500px 300px at 92% 112%, rgba(255, 128, 102, 0.35), transparent 70%),
+    radial-gradient(500px 300px at 6% 112%, rgba(85, 230, 255, 0.25), transparent 70%),
+    #16183A;
+  box-shadow: 0 0 0 1px rgba(121, 87, 255, 0.15),
+              0 40px 120px -30px rgba(121, 87, 255, 0.55);
+}
+.cta-panel h2 { font-size: clamp(2rem, 5vw, 3.25rem); }
+.cta-panel .lead {
+  max-width: 48ch;
+  margin: var(--s-2) auto var(--s-5);
+}
+.cta-rings {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+/* 10. Footer ------------------------------------------------------------- */
+.site-footer {
+  padding: var(--s-8) 0 var(--s-5);
+  border-top: 1px solid var(--border);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, 1fr);
+  gap: var(--s-6);
+}
+.footer-brand p {
+  max-width: 32ch;
+  margin-top: var(--s-2);
+  color: var(--text-muted);
+}
+.footer-col h3 {
+  margin-bottom: var(--s-2);
+  font: 600 0.9375rem/1.3 var(--font-head);
+}
+.footer-col ul {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-col a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer-col a:hover { color: var(--soft-white); text-decoration: underline; }
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s-2);
+  margin-top: 56px;
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+/* 11. Responsive --------------------------------------------------------- */
+@media (max-width: 900px) {
+  /* Navigation becomes a dropdown menu */
+  .nav-toggle { display: inline-flex; }
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: var(--s-1) var(--s-3) var(--s-3);
+    border-bottom: 1px solid var(--border);
+    background: rgba(16, 17, 36, 0.97);
+  }
+  .nav-links[data-open="true"] { display: flex; }
+  .nav-links a:not(.btn) {
+    padding: var(--s-2) 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-links .nav-cta { margin-top: var(--s-2); }
+  .nav-links .nav-cta .btn { width: 100%; }
+
+  /* Hero stacks */
+  .hero { padding-top: var(--s-4); }
+  .hero-grid { grid-template-columns: 1fr; gap: var(--s-6); }
+  .hero-art { max-width: 440px; }
+
+  /* Cards: two per row */
+  .card-wide,
+  .card-narrow { grid-column: span 6; }
+
+  /* Testimonials stack */
+  .quotes { grid-template-columns: 1fr; max-width: 640px; }
+  .quotes .quote:nth-child(2) { margin-top: 0; }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+@media (max-width: 640px) {
+  .section { padding-block: 72px; }
+  .hero { padding-bottom: 72px; }
+  .section-head { margin-bottom: var(--s-5); }
+
+  .hero-actions .btn { flex: 1 1 auto; }
+
+  .chip { padding: 8px 12px; font-size: 0.8125rem; }
+
+  .card,
+  .card-wide,
+  .card-narrow { grid-column: 1 / -1; }
+  .card { min-height: 0; padding: 28px; }
+  .card-link { margin-top: var(--s-2); }
+
+  .cta-panel { padding: var(--s-8) var(--s-3); }
+  .footer-bottom { flex-direction: column; }
+}
+
+/* 12. Reduced motion ----------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
+/* 13. Style guide section (in-page) ------------------------------------- */
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-3);
+}
+.guide-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: var(--s-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--glass);
+}
+.guide-wide { grid-column: 1 / -1; }
+.guide-block h3 { font: 600 1.25rem/1.3 var(--font-head); }
+.guide-block .hint { color: var(--text-muted); font-size: 0.875rem; }
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--s-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.swatches li { display: grid; gap: 4px; }
+.swatch {
+  height: 72px;
+  margin-bottom: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.swatches strong { font-size: 0.9375rem; font-weight: 600; }
+.swatches code { color: var(--text-muted); font-size: 0.8125rem; }
+.swatches small { color: var(--text-muted); font-size: 0.8125rem; }
+
+.type-list { display: grid; gap: var(--s-2); margin: 0; padding: 0; list-style: none; }
+.type-list li { display: grid; gap: 2px; padding-bottom: var(--s-2); border-bottom: 1px solid var(--border); }
+.type-list li:last-child { padding-bottom: 0; border-bottom: 0; }
+.type-list .meta { color: var(--text-muted); font-size: 0.8125rem; }
+.t-h1 { font: 700 2.5rem/1.1 var(--font-head); letter-spacing: -0.025em; }
+.t-h2 { font: 600 2rem/1.15 var(--font-head); letter-spacing: -0.02em; }
+.t-h3 { font: 600 1.5rem/1.25 var(--font-head); }
+.t-body { font: 400 1rem/1.65 var(--font-body); }
+.t-small { font: 400 0.875rem/1.6 var(--font-body); }
+
+.button-row { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+
+.space-scale { display: flex; align-items: flex-end; flex-wrap: wrap; gap: var(--s-3); }
+.space-scale figure { display: grid; gap: 8px; justify-items: start; }
+.space-scale .box {
+  background: rgba(121, 87, 255, 0.55);
+  border: 1px solid var(--violet);
+  border-radius: 4px;
+}
+.space-scale figcaption { color: var(--text-muted); font-size: 0.8125rem; }
+
+.radius-scale { display: flex; flex-wrap: wrap; gap: var(--s-3); }
+.radius-scale figure { display: grid; gap: 8px; justify-items: start; }
+.radius-scale .box {
+  width: 72px;
+  height: 56px;
+  background: var(--glass);
+  border: 1px solid var(--lavender);
+}
+.radius-scale figcaption { color: var(--text-muted); font-size: 0.8125rem; }
+
+@media (max-width: 900px) {
+  .guide-grid { grid-template-columns: 1fr; }
+  .swatches { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .guide-block { padding: var(--s-3); }
+  .t-h1 { font-size: 2rem; }
+  .t-h2 { font-size: 1.75rem; }
+}
+
+
+/* 14. Pages, forms, and interactive pieces ------------------------------ */
+:root { color-scheme: dark; }
+[hidden] { display: none !important; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.nav-links { gap: var(--s-3); }
+
+.page-hero { padding: var(--s-6) 0 var(--s-12); }
+.page-title {
+  font: 700 clamp(2.25rem, 5vw, 3.25rem)/1.1 var(--font-head);
+  letter-spacing: -0.025em;
+}
+.page-title:focus,
+.form-title:focus,
+.success h2:focus { outline: none; }
+.page-intro .lead { max-width: 56ch; margin-top: var(--s-2); }
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: var(--s-3);
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+.crumbs a { text-decoration: none; }
+.crumbs a:hover { color: var(--soft-white); text-decoration: underline; }
+.crumbs span[aria-current]::before { content: "/"; margin-right: 8px; opacity: 0.5; }
+
+/* Pill buttons used for filters and presets */
+.pill-btn {
+  height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--glass);
+  color: var(--text);
+  font: 500 0.9375rem/1 var(--font-body);
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.pill-btn:hover { border-color: var(--lavender); }
+.pill-btn[aria-pressed="true"] {
+  background: var(--soft-white);
+  border-color: var(--soft-white);
+  color: var(--midnight);
+}
+
+/* Courses */
+.course-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-2);
+  margin: var(--s-5) 0 var(--s-2);
+}
+.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.search input {
+  width: min(320px, 100%);
+  height: 44px;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--glass);
+  color: var(--text);
+  font: inherit;
+}
+.search input::placeholder { color: rgba(220, 210, 255, 0.55); }
+.search input:focus-visible,
+.field input:focus-visible,
+.field select:focus-visible,
+.radius-controls input:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 2px;
+}
+.pill-btn:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+
+.result-count { margin-bottom: var(--s-3); color: var(--text-muted); font-size: 0.875rem; }
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-3);
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: var(--s-4);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--glass);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.course-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(var(--accent-rgb), 0.6);
+  border-top-color: var(--accent);
+  box-shadow: 0 20px 50px -24px rgba(var(--accent-rgb), 0.5);
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-text);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.tag i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+}
+.course-card h3 { font: 600 1.25rem/1.3 var(--font-head); letter-spacing: -0.01em; }
+.course-card p { color: var(--text-muted); }
+.course-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 4px 0 var(--s-1);
+  padding: 0;
+  list-style: none;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+.course-card .btn { margin-top: auto; }
+.empty {
+  display: grid;
+  justify-items: start;
+  gap: var(--s-2);
+  padding: var(--s-5);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+}
+
+/* Registration */
+.register-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  gap: var(--s-8);
+  align-items: start;
+}
+.register-aside .lead { max-width: 40ch; margin-top: var(--s-2); }
+.benefits {
+  display: grid;
+  gap: var(--s-3);
+  margin: var(--s-5) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.benefits li { position: relative; display: grid; gap: 4px; padding-left: 28px; }
+.benefits li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 14px rgba(var(--accent-rgb), 0.7);
+}
+.benefits strong { font-weight: 600; }
+.benefits span { color: var(--text-muted); }
+
+.form-card {
+  padding: var(--s-5);
+  border: 1px solid rgba(220, 210, 255, 0.22);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(420px 240px at 100% 0%, rgba(121, 87, 255, 0.28), transparent 70%),
+    rgba(248, 247, 255, 0.05);
+  box-shadow: 0 30px 80px -40px rgba(121, 87, 255, 0.6);
+}
+.form-card form { display: grid; gap: 20px; }
+.form-title { font: 600 1.5rem/1.25 var(--font-head); }
+
+.field { display: grid; gap: 8px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.field label,
+.field legend { padding: 0; font-size: 0.9375rem; font-weight: 500; }
+.optional { color: var(--text-muted); font-weight: 400; }
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"],
+.field select {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: rgba(16, 17, 36, 0.6);
+  color: var(--text);
+  font: inherit;
+  transition: border-color 0.2s ease;
+}
+.field input:hover,
+.field select:hover { border-color: rgba(220, 210, 255, 0.4); }
+.field.has-error input,
+.field.has-error select { border-color: #FF9C86; }
+.field .hint { color: var(--text-muted); font-size: 0.8125rem; }
+.field .error { color: #FF9C86; font-size: 0.875rem; }
+.field .error:empty { display: none; }
+
+.input-wrap { position: relative; }
+.input-wrap input { padding-right: 84px; }
+.toggle-pass {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--lavender);
+  font: 500 0.875rem/1 var(--font-body);
+  cursor: pointer;
+}
+.toggle-pass:hover { background: var(--glass); }
+
+.pill-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.pill-check { position: relative; display: inline-block; }
+.pill-check input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.pill-check span {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--glass);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+.pill-check input:checked + span { background: rgba(121, 87, 255, 0.38); border-color: var(--violet); }
+.pill-check input:focus-visible + span { outline: 2px solid var(--cyan); outline-offset: 2px; }
+
+.field .check { display: flex; align-items: flex-start; gap: 12px; font-weight: 400; }
+.check input { flex: none; width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--violet); }
+.btn-block { width: 100%; }
+.demo-note { color: var(--text-muted); font-size: 0.8125rem; text-align: center; }
+
+.success { display: grid; justify-items: start; gap: var(--s-2); padding: var(--s-2) 0; }
+.success-mark {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--cyan);
+  border-radius: 50%;
+  background: rgba(85, 230, 255, 0.14);
+  color: var(--cyan);
+}
+.success h2 { font: 600 1.75rem/1.2 var(--font-head); }
+.success p { color: var(--text-muted); }
+.success .button-row { margin-top: var(--s-1); }
+
+/* Interactive radius demo (style guide) */
+.radius-demo {
+  --demo-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-3);
+}
+.radius-box {
+  width: 160px;
+  height: 96px;
+  border: 1px solid var(--lavender);
+  border-radius: var(--demo-radius);
+  background: var(--glass);
+}
+.radius-demo .btn { border-radius: var(--demo-radius); }
+.radius-controls { display: grid; gap: 12px; }
+.radius-controls label { color: var(--text-muted); font-size: 0.875rem; }
+.radius-controls input[type="range"] { width: 100%; accent-color: var(--coral); }
+.presets { display: flex; flex-wrap: wrap; gap: 8px; }
+
+@media (max-width: 900px) {
+  .course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .register-layout { grid-template-columns: 1fr; gap: var(--s-6); }
+  .page-hero { padding-top: var(--s-4); }
+}
+@media (max-width: 640px) {
+  .course-grid { grid-template-columns: 1fr; }
+  .course-tools { align-items: stretch; }
+  .search input { width: 100%; }
+  .form-card { padding: var(--s-3); }
+  .page-hero { padding-bottom: 72px; }
+}
+
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Navigation ===== -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="CreativeVerse home">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJub25lIiB4bWxuczpjMnBhPSJodHRwOi8vYzJwYS5vcmcvbWFuaWZlc3QiPjxtZXRhZGF0YT48YzJwYTptYW5pZmVzdD5BQUFXZ21wMWJXSUFBQUFlYW5WdFpHTXljR0VBRVFBUWdBQUFxZ0E0bTNFRFl6SndZUUFBQUJaY2FuVnRZZ0FBQUVkcWRXMWtZekp0WVFBUkFCQ0FBQUNxQURpYmNRTjFjbTQ2WXpKd1lUb3lObVZtTVRCak5DMDNObU13TFRRd056Z3RZakkxTWkwMVlXRTJOVEJpWkdJeU1HUUFBQUFEbDJwMWJXSUFBQUFwYW5WdFpHTXlZWE1BRVFBUWdBQUFxZ0E0bTNFRFl6SndZUzVoYzNObGNuUnBiMjV6QUFBQUFMeHFkVzFpQUFBQVJHcDFiV1JqWW05eUFCRUFFSUFBQUtvQU9KdHhFMk15Y0dFdWFXNW5jbVZrYVdWdWRDNTJNd0FBQUFBWVl6SnphQnpXamROSVdPWmRHczhuKzhWQjZYUUFBQUJ3WTJKdmNxTnBaR002Wm05eWJXRjBiV2x0WVdkbEwzTjJaeXQ0Yld4cWFXNXpkR0Z1WTJWSlJIZ3NlRzF3T21scFpEb3hOR1poT1dNek55MHdNMkl4TFRSbE56UXRZVFJsTVMwd1pqQTBZMk5rTURWa1pUbHNjbVZzWVhScGIyNXphR2x3YUhCaGNtVnVkRTltQUFBQjRtcDFiV0lBQUFCQmFuVnRaR05pYjNJQUVRQVFnQUFBcWdBNG0zRVRZekp3WVM1aFkzUnBiMjV6TG5ZeUFBQUFBQmhqTW5Ob2pJWnRBNFpDbUdxdzUzQ05hZ21ETFFBQUFabGpZbTl5b21kaFkzUnBiMjV6Z3FKbVlXTjBhVzl1YTJNeWNHRXViM0JsYm1Wa2FuQmhjbUZ0WlhSbGNuT2hhMmx1WjNKbFpHbGxiblJ6Z2FKamRYSnNlQzF6Wld4bUkycDFiV0ptUFdNeWNHRXVZWE56WlhKMGFXOXVjeTlqTW5CaExtbHVaM0psWkdsbGJuUXVkak5rYUdGemFGZ2dBV25XSjk2aS85VTJFalRhMGlpY244dXhsaTZnaTZVYW9talRVVElhZ1JDa1ptRmpkR2x2Ym5nZFkyOXRMbUZ1ZEdoeWIzQnBZeTVqYkdGMVpHVXVjSEp2ZG1sa1pXUnFjR0Z5WVcxbGRHVnljNkY0SDJOdmJTNWhiblJvY205d2FXTXViM0pwWjJsdUxXTnZibVpwWkdWdVkyVm5kVzVyYm05M2JtdGtaWE5qY21sd2RHbHZibmhtUTJ4aGRXUmxJSEJ5YjNacFpHVmtJSFJvYVhNZ1ptbHNaU0JoZENCMGFHVWdjbVZ4ZFdWemRDQnZaaUJoSUhWelpYSWdZVzVrSUcxaGVTQm9ZWFpsSUdOeVpXRjBaV1FnYjNJZ2JXOWthV1pwWldRZ2RHaGxJR1pwYkdVZ1kyOXVkR1Z1ZEhNdWJYTnZablIzWVhKbFFXZGxiblNoWkc1aGJXVm1RMnhoZFdSbGNtRnNiRUZqZEdsdmJuTkpibU5zZFdSbFpQVUFBQURJYW5WdFlnQUFBRUJxZFcxa1kySnZjZ0FSQUJDQUFBQ3FBRGliY1JOak1uQmhMbWhoYzJndVpHRjBZUUFBQUFBWVl6SnphSzkzYUl5ZktmN1AwdDh4VG5DZFY0WUFBQUNBWTJKdmNxVmpZV3huWm5Ob1lUSTFObU53WVdSTkFBQUFBQUFBQUFBQUFBQUFBR1JvWVhOb1dDQ2hDY0g0Tzd6QVRSL0ZDK3hYZUM3dTczaU9GaWgrNS9IN0VvVS9iY0NpdG1SdVlXMWxibXAxYldKbUlHMWhibWxtWlhOMGFtVjRZMngxYzJsdmJuT0JvbVZ6ZEdGeWRCaWVabXhsYm1kMGFCa2VCQUFBQWo1cWRXMWlBQUFBSjJwMWJXUmpNbU5zQUJFQUVJQUFBS29BT0p0eEEyTXljR0V1WTJ4aGFXMHVkaklBQUFBQ0QyTmliM0tsWTJGc1oyWnphR0V5TlRacGMybG5ibUYwZFhKbGVFMXpaV3htSTJwMWJXSm1QUzlqTW5CaEwzVnlianBqTW5CaE9qSTJaV1l4TUdNMExUYzJZekF0TkRBM09DMWlNalV5TFRWaFlUWTFNR0prWWpJd1pDOWpNbkJoTG5OcFoyNWhkSFZ5WldwcGJuTjBZVzVqWlVsRWVDeDRiWEE2YVdsa09qRmpZemcwTjJJd0xUWmxaV1V0TkRjek55MDVZelF6TFRKaVpUaGxNVGt4T1RVNVkzSmpjbVZoZEdWa1gyRnpjMlZ5ZEdsdmJuT0RvbU4xY214NExYTmxiR1lqYW5WdFltWTlZekp3WVM1aGMzTmxjblJwYjI1ekwyTXljR0V1YVc1bmNtVmthV1Z1ZEM1Mk0yUm9ZWE5vV0NBQmFkWW4zcUwvMVRZU05OclNLSnlmeTdHV0xxQ0xwUnFpYU5OUk1ocUJFS0pqZFhKc2VDcHpaV3htSTJwMWJXSm1QV015Y0dFdVlYTnpaWEowYVc5dWN5OWpNbkJoTG1GamRHbHZibk11ZGpKa2FHRnphRmdnRzF0cUkwa2wvUzRJNHRBOTFkOG5VekV2SmxUcmpBR2I0VWczUTFhQUFnbWlZM1Z5YkhncGMyVnNaaU5xZFcxaVpqMWpNbkJoTG1GemMyVnlkR2x2Ym5Ndll6SndZUzVvWVhOb0xtUmhkR0ZrYUdGemFGZ2dERTlUaVNINDBXNG4wcFA5d2VSS0ZGdWdPMklKZUYyOTAyczA3aXk2WWJ4MFkyeGhhVzFmWjJWdVpYSmhkRzl5WDJsdVptK2paRzVoYldWdlFXNTBhSEp2Y0dsaklFWnBiR1Z6WjNabGNuTnBiMjVsTVM0d0xqQnJjM0JsWTFabGNuTnBiMjVsTWk0MExqQUFBQkE0YW5WdFlnQUFBQ2hxZFcxa1l6Smpjd0FSQUJDQUFBQ3FBRGliY1FOak1uQmhMbk5wWjI1aGRIVnlaUUFBQUJBSVkySnZjdEtFV1FJU29nRW1HQ0ZaQWdvd2dnSUdNSUlCamFBREFnRUNBaFJBNWFBSzdzSTUwTDY0Zy9vR1FnVTlaMVVUQURBS0JnZ3Foa2pPUFFRREF6QkpNUmN3RlFZRFZRUUtFdzVCYm5Sb2NtOXdhV01zSUZCQ1F6RXVNQ3dHQTFVRUF4TWxRVzUwYUhKdmNHbGpJRU52Ym5SbGJuUWdRM0psWkdWdWRHbGhiSE1nVW05dmRDQkRRVEFlRncweU5qQTRNRGN4T0RRek5UWmFGdzB5T0RBNE1EWXhPVFF6TlRaYU1FUXhGekFWQmdOVkJBb1REa0Z1ZEdoeWIzQnBZeXdnVUVKRE1Ta3dKd1lEVlFRREV5QkJiblJvY205d2FXTWdRMnhoZFdSbElFTnZiblJsYm5RZ1UybG5ibWx1WnpCWk1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhBMElBQkpoNkNtdkxVQmdGRk5VMHZVS2xPVnRFNmRqZDE3TDVTdXdYMExlbUZpc0JNM2RrZC8zY3lqeEZBM1FvNVM0NmZYMC9paFkwVlo3bWZiOUtGNzAzdDVPaldEQldNQTRHQTFVZER3RUIvd1FFQXdJSGdEQVZCZ05WSFNVRURqQU1CZ29yQmdFRUFZUG9YZ0lCTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVemxIaUJJRk9aRnNqK09QRXo1bytuTUhYWE1Jd0NnWUlLb1pJemowRUF3TURad0F3WkFJd01YTWRGSjRCZXRMTFZZN09SdUU5bm9xYmJBWk9abi9hQXJYeVR3RkFaZktyUHp4RjJ2UG9KTmYxK1VDZGcxWEdBakJ3WDF6ZDlXR3FZa3FtTDVTRnF3MVF5U2pyMXpKZnBKTTkrMXJkRHdTUExNT1BPakt1aVhqb1UvcFVVZUc5UndtaFkzQmhaRmtObmdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFQWllRTnc2WVZKWGlDQVA4R0F3YUwwYU5IZ05JQ1NIdXBLL0M5UHdmbFJtTWVnTDU5S0EvSzZzUmhxWXNqMjBqbmFWdjRPem92WitQaHduYXYzaWp0TG8zQWs9PC9jMnBhOm1hbmlmZXN0PjwvbWV0YWRhdGE+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iNCIgeTE9IjQiIHgyPSIyOCIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzc5NTdGRiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzU1RTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxlbGxpcHNlIGN4PSIxNiIgY3k9IjE2IiByeD0iMTMiIHJ5PSI2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggMTYgMTYpIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjYiIGZpbGw9InVybCgjZykiLz48Y2lyY2xlIGN4PSIyNy41IiBjeT0iOS45IiByPSIyLjUiIGZpbGw9IiNGRjgwNjYiLz48L3N2Zz4=" alt="" width="32" height="32">
+        <span>CreativeVerse</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+        <svg class="icon-open" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+
+      <ul class="nav-links" id="site-menu" data-open="false">
+        <li><a href="#explore">Explore</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#style-guide">Style guide</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-cta"><a class="btn btn-primary btn-sm" href="#register">Get started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="page" id="page-home" data-page="home">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Your ideas deserve a universe.</h1>
+          <p class="lead">CreativeVerse brings drawing, design, courses, and well-being together in one place, so you can make things, learn how, and keep going.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#register">Start creating</a>
+            <a class="btn btn-secondary" href="#courses">Explore courses</a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" fill="none" role="img" aria-labelledby="art-title art-desc">
+            <title id="art-title">CreativeVerse orbit artwork</title>
+            <desc id="art-desc">A glowing coral and violet sphere circled by three tilted orbits with four small colored planets.</desc>
+            <defs>
+              <radialGradient id="cv-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0" stop-color="#7957FF" stop-opacity=".55"/>
+                <stop offset=".6" stop-color="#7957FF" stop-opacity=".12"/>
+                <stop offset="1" stop-color="#7957FF" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="cv-core" cx="35%" cy="30%" r="75%">
+                <stop offset="0" stop-color="#FFB5A3"/>
+                <stop offset=".35" stop-color="#FF8066"/>
+                <stop offset=".72" stop-color="#7957FF"/>
+                <stop offset="1" stop-color="#2A1F7A"/>
+              </radialGradient>
+              <linearGradient id="cv-ring" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#7957FF"/>
+                <stop offset="1" stop-color="#55E6FF"/>
+              </linearGradient>
+              <filter id="cv-soft" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="8"/>
+              </filter>
+            </defs>
+
+            <!-- ambient glow -->
+            <circle cx="260" cy="260" r="256" fill="url(#cv-glow)"/>
+
+            <!-- stars -->
+            <g fill="#F8F7FF">
+              <circle cx="62" cy="96" r="1.6" opacity=".8"/>
+              <circle cx="118" cy="44" r="1.2" opacity=".6"/>
+              <circle cx="442" cy="70" r="1.8" opacity=".85"/>
+              <circle cx="480" cy="168" r="1.2" opacity=".55"/>
+              <circle cx="30" cy="268" r="1.4" opacity=".6"/>
+              <circle cx="500" cy="332" r="1.6" opacity=".7"/>
+              <circle cx="86" cy="430" r="1.8" opacity=".8"/>
+              <circle cx="200" cy="486" r="1.2" opacity=".55"/>
+              <circle cx="372" cy="470" r="1.6" opacity=".7"/>
+              <circle cx="332" cy="28" r="1.2" opacity=".6"/>
+              <circle cx="156" cy="150" r="1" opacity=".5"/>
+              <circle cx="414" cy="408" r="1" opacity=".5"/>
+            </g>
+
+            <!-- orbit paths -->
+            <g stroke-width="1.5">
+              <ellipse transform="rotate(-24 260 260)" cx="260" cy="260" rx="236" ry="88" stroke="url(#cv-ring)"/>
+              <ellipse transform="rotate(38 260 260)" cx="260" cy="260" rx="190" ry="130" stroke="#DCD2FF" stroke-opacity=".35" stroke-dasharray="3 9"/>
+              <ellipse transform="rotate(-72 260 260)" cx="260" cy="260" rx="140" ry="58" stroke="#55E6FF" stroke-opacity=".55"/>
+            </g>
+
+            <!-- core sphere -->
+            <circle cx="260" cy="260" r="96" fill="#7957FF" opacity=".28" filter="url(#cv-soft)"/>
+            <circle cx="260" cy="260" r="84" stroke="#DCD2FF" stroke-opacity=".18"/>
+            <circle cx="260" cy="260" r="64" fill="url(#cv-core)"/>
+            <circle cx="238" cy="236" r="20" fill="#FFFFFF" opacity=".22" filter="url(#cv-soft)"/>
+
+            <!-- planets: Create (coral), Learn (violet), Innovate (cyan), Grow (lavender) -->
+            <g transform="rotate(-24 260 260)">
+              <circle r="11" fill="#FF8066">
+                <animateMotion dur="30s" repeatCount="indefinite" path="M24 260 A236 88 0 0 1 496 260 A236 88 0 0 1 24 260Z"/>
+              </circle>
+              <circle r="9" fill="#7957FF" stroke="#DCD2FF" stroke-width="1.5">
+                <animateMotion dur="30s" begin="-15s" repeatCount="indefinite" path="M24 260 A236 88 0 0 1 496 260 A236 88 0 0 1 24 260Z"/>
+              </circle>
+            </g>
+            <g transform="rotate(38 260 260)">
+              <circle r="8" fill="#55E6FF">
+                <animateMotion dur="22s" repeatCount="indefinite" path="M70 260 A190 130 0 0 0 450 260 A190 130 0 0 0 70 260Z"/>
+              </circle>
+            </g>
+            <g transform="rotate(-72 260 260)">
+              <circle r="7" fill="#DCD2FF">
+                <animateMotion dur="16s" repeatCount="indefinite" path="M120 260 A140 58 0 0 1 400 260 A140 58 0 0 1 120 260Z"/>
+              </circle>
+            </g>
+          </svg>
+          <span class="chip chip-create"><i></i>Create</span>
+          <span class="chip chip-learn"><i></i>Learn</span>
+          <span class="chip chip-grow"><i></i>Grow</span>
+          <span class="chip chip-innovate"><i></i>Innovate</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Explore possibilities ===== -->
+    <section class="section" id="explore" aria-labelledby="explore-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="explore-title">Explore possibilities</h2>
+          <p class="lead">Four ways in. Pick one to start, or move between them as your ideas change.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card card-wide accent-create">
+            <svg class="card-art" viewBox="0 0 150 100" aria-hidden="true">
+              <circle cx="52" cy="58" r="34" fill="#FF8066" fill-opacity=".7"/>
+              <circle cx="96" cy="58" r="34" fill="#7957FF" fill-opacity=".7"/>
+              <circle cx="74" cy="34" r="30" fill="#55E6FF" fill-opacity=".55"/>
+            </svg>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+            </span>
+            <h3>Create</h3>
+            <p>Draw, paint, and design. Open a blank canvas, follow a guided project, or share your work with other makers.</p>
+            <a class="card-link" href="#courses/create">Browse art projects</a>
+          </article>
+
+          <article class="card card-narrow accent-learn">
+            <svg class="card-art" viewBox="0 0 150 100" aria-hidden="true">
+              <rect x="12" y="62" width="104" height="26" rx="10" fill="none" stroke="#A892FF" stroke-opacity=".5" stroke-width="1.5"/>
+              <rect x="26" y="38" width="104" height="26" rx="10" fill="#7957FF" fill-opacity=".25" stroke="#A892FF" stroke-opacity=".7" stroke-width="1.5"/>
+              <rect x="40" y="14" width="104" height="26" rx="10" fill="#7957FF" fill-opacity=".7"/>
+            </svg>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </span>
+            <h3>Learn</h3>
+            <p>Short, finishable lessons that build real skills, from color theory to your first web page.</p>
+            <a class="card-link" href="#courses/learn">See the courses</a>
+          </article>
+
+          <article class="card card-narrow accent-grow">
+            <svg class="card-art" viewBox="0 0 150 100" aria-hidden="true">
+              <g fill="none" stroke="#DCD2FF" stroke-width="1.5" stroke-linecap="round">
+                <path d="M50 90 A30 30 0 0 0 20 60" stroke-opacity=".9"/>
+                <path d="M80 90 A60 60 0 0 0 20 30" stroke-opacity=".6"/>
+                <path d="M110 90 A90 90 0 0 0 20 0" stroke-opacity=".35"/>
+              </g>
+              <circle cx="20" cy="90" r="5" fill="#DCD2FF"/>
+              <circle cx="50" cy="90" r="3" fill="#DCD2FF" fill-opacity=".9"/>
+              <circle cx="80" cy="90" r="3" fill="#DCD2FF" fill-opacity=".6"/>
+              <circle cx="110" cy="90" r="3" fill="#DCD2FF" fill-opacity=".35"/>
+            </svg>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22V12"/><path d="M12 12C12 8 9 5 4 5c0 4 3 7 8 7z"/><path d="M12 15c0-3.5 2.5-6 7-6 0 3.5-2.5 6-7 6z"/></svg>
+            </span>
+            <h3>Grow</h3>
+            <p>Slow sessions for reflection, journaling prompts, and short breaks that help you keep creating.</p>
+            <a class="card-link" href="#courses/grow">Try a calm session</a>
+          </article>
+
+          <article class="card card-wide accent-innovate">
+            <svg class="card-art" viewBox="0 0 150 100" aria-hidden="true">
+              <g stroke="#55E6FF" stroke-opacity=".5" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 78 L58 36 L100 66 L132 22"/>
+                <path d="M58 36 L90 10"/>
+              </g>
+              <circle cx="20" cy="78" r="6" fill="#55E6FF"/>
+              <circle cx="58" cy="36" r="8" fill="#7957FF"/>
+              <circle cx="100" cy="66" r="6" fill="#FF8066"/>
+              <circle cx="132" cy="22" r="8" fill="#55E6FF" fill-opacity=".7"/>
+              <circle cx="90" cy="10" r="4" fill="#DCD2FF"/>
+            </svg>
+            <span class="card-icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </span>
+            <h3>Innovate</h3>
+            <p>Use code, interactive tools, and new media to turn a sketch into something that works and moves.</p>
+            <a class="card-link" href="#courses/innovate">Start a tech project</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section" id="stories" aria-labelledby="stories-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="stories-title">Stories from the community</h2>
+          <p class="lead">What it feels like to make a little room for ideas every day.</p>
+        </div>
+
+        <div class="quotes">
+          <figure class="quote accent-create">
+            <blockquote>
+              <p>I started with one ten-minute drawing prompt. Three months later I have a full sketchbook and a habit I actually keep.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">MO</span>
+              <span class="who"><strong>Maya Okafor</strong><span>Illustrator</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote accent-innovate">
+            <blockquote>
+              <p>The lessons are short enough to finish on a lunch break. I built my first portfolio page in four weeks.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">DR</span>
+              <span class="who"><strong>Daniel Reyes</strong><span>Self-taught web designer</span></span>
+            </figcaption>
+          </figure>
+
+          <figure class="quote accent-grow">
+            <blockquote>
+              <p>The Grow sessions are why I stayed. Taking time to pause made my design work calmer and better.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar" aria-hidden="true">PN</span>
+              <span class="who"><strong>Priya Nair</strong><span>Product designer</span></span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <p class="note">These quotes are sample feedback written for this design concept, not from real members.</p>
+      </div>
+    </section>
+
+    <!-- ===== Final call to action ===== -->
+    <section class="section" id="join" aria-labelledby="join-title">
+      <div class="container">
+        <div class="cta-panel">
+          <svg class="cta-rings" viewBox="0 0 1000 420" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <g fill="none" stroke="#DCD2FF">
+              <circle cx="500" cy="210" r="140" stroke-opacity=".18"/>
+              <circle cx="500" cy="210" r="240" stroke-opacity=".12"/>
+              <circle cx="500" cy="210" r="340" stroke-opacity=".08"/>
+            </g>
+          </svg>
+          <h2 id="join-title">Start with one idea.</h2>
+          <p class="lead">Open a canvas, pick a course, or take ten quiet minutes. Your universe starts small.</p>
+          <a class="btn btn-primary" href="#register">Join CreativeVerse</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Style guide ===== -->
+    <section class="section" id="style-guide" aria-labelledby="guide-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="guide-title">Style guide</h2>
+          <p class="lead">The colors, type, spacing, and components used across this page.</p>
+        </div>
+
+        <div class="guide-grid">
+          <div class="guide-block guide-wide">
+            <h3>Color palette</h3>
+            <ul class="swatches">
+              <li><span class="swatch" style="background:#101124"></span><strong>Midnight</strong><code>#101124</code><small>Background</small></li>
+              <li><span class="swatch" style="background:#7957FF"></span><strong>Violet</strong><code>#7957FF</code><small>Primary accent</small></li>
+              <li><span class="swatch" style="background:#55E6FF"></span><strong>Electric cyan</strong><code>#55E6FF</code><small>Tech accent, focus</small></li>
+              <li><span class="swatch" style="background:#FF8066"></span><strong>Coral</strong><code>#FF8066</code><small>Buttons, warmth</small></li>
+              <li><span class="swatch" style="background:#F8F7FF"></span><strong>Soft white</strong><code>#F8F7FF</code><small>Main text</small></li>
+              <li><span class="swatch" style="background:#DCD2FF"></span><strong>Lavender</strong><code>#DCD2FF</code><small>Secondary text, borders</small></li>
+            </ul>
+          </div>
+
+          <div class="guide-block">
+            <h3>Typography</h3>
+            <ul class="type-list">
+              <li><span class="t-h1">Heading 1</span><span class="meta">Poppins 700, 40 to 64 px</span></li>
+              <li><span class="t-h2">Heading 2</span><span class="meta">Poppins 600, 32 to 48 px</span></li>
+              <li><span class="t-h3">Heading 3</span><span class="meta">Poppins 600, 24 px</span></li>
+              <li><span class="t-body">Body text for paragraphs and descriptions.</span><span class="meta">Inter 400, 16 px</span></li>
+              <li><span class="t-small">Small text for captions and notes.</span><span class="meta">Inter 400, 14 px</span></li>
+            </ul>
+          </div>
+
+          <div class="guide-block">
+            <h3>Buttons</h3>
+            <div class="button-row">
+              <a class="btn btn-primary" href="#register">Primary</a>
+              <a class="btn btn-secondary" href="#courses">Secondary</a>
+              <button class="btn btn-primary" type="button" disabled>Disabled</button>
+            </div>
+            <p class="hint">48 px tall, pill shape. Hover lifts the button, focus shows a cyan outline, and disabled drops to 50% opacity.</p>
+
+            <h3>Spacing</h3>
+            <div class="space-scale">
+              <figure><span class="box" style="width:8px;height:8px"></span><figcaption>8</figcaption></figure>
+              <figure><span class="box" style="width:16px;height:16px"></span><figcaption>16</figcaption></figure>
+              <figure><span class="box" style="width:24px;height:24px"></span><figcaption>24</figcaption></figure>
+              <figure><span class="box" style="width:32px;height:32px"></span><figcaption>32</figcaption></figure>
+              <figure><span class="box" style="width:48px;height:48px"></span><figcaption>48</figcaption></figure>
+              <figure><span class="box" style="width:64px;height:64px"></span><figcaption>64</figcaption></figure>
+              <figure><span class="box" style="width:96px;height:96px"></span><figcaption>96</figcaption></figure>
+            </div>
+            <p class="hint">Everything sits on an 8 px grid. Sections use 96 px of vertical space, cards use 24 px gaps.</p>
+
+            <h3>Corner radius</h3>
+            <div class="radius-demo" id="radius-demo">
+              <div class="radius-box" aria-hidden="true"></div>
+              <button class="btn btn-primary" type="button" tabindex="-1">Sample button</button>
+            </div>
+            <div class="radius-controls">
+              <label for="radius-range">Radius: <strong id="radius-value">20 px</strong></label>
+              <input id="radius-range" type="range" min="0" max="40" step="2" value="20">
+              <div class="presets" role="group" aria-label="Radius presets">
+                <button class="pill-btn" type="button" data-radius="12" aria-pressed="false">Small 12</button>
+                <button class="pill-btn" type="button" data-radius="20" aria-pressed="true">Medium 20</button>
+                <button class="pill-btn" type="button" data-radius="28" aria-pressed="false">Large 28</button>
+                <button class="pill-btn" type="button" data-radius="999" aria-pressed="false">Pill</button>
+              </div>
+            </div>
+            <p class="hint">Drag the slider or pick a preset to see the corners change on the sample card and button.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div><!-- /page-home -->
+
+    <!-- ===== Courses page ===== -->
+    <div class="page" id="page-courses" data-page="courses" hidden>
+      <section class="page-hero" aria-labelledby="courses-title">
+        <div class="container">
+          <div class="page-intro">
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="#top">Home</a><span aria-current="page">Courses</span></nav>
+            <h1 class="page-title" id="courses-title" tabindex="-1">Courses</h1>
+            <p class="lead">Short, finishable lessons across art, design, well-being, and technology. Pick one and enroll in a minute.</p>
+          </div>
+
+          <div class="course-tools">
+            <div class="filters" role="group" aria-label="Filter courses by pillar">
+              <button class="pill-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+              <button class="pill-btn" type="button" data-filter="create" aria-pressed="false">Create</button>
+              <button class="pill-btn" type="button" data-filter="learn" aria-pressed="false">Learn</button>
+              <button class="pill-btn" type="button" data-filter="grow" aria-pressed="false">Grow</button>
+              <button class="pill-btn" type="button" data-filter="innovate" aria-pressed="false">Innovate</button>
+            </div>
+            <div class="search">
+              <label class="sr-only" for="course-search">Search courses</label>
+              <input id="course-search" type="search" placeholder="Search courses" autocomplete="off">
+            </div>
+          </div>
+
+          <p class="result-count" id="course-count" aria-live="polite"></p>
+          <div class="course-grid" id="course-grid"></div>
+          <div class="empty" id="course-empty" hidden>
+            <p>No courses match your search. Try a different word, or clear the filters.</p>
+            <button class="btn btn-secondary btn-sm" type="button" id="reset-filters">Clear filters</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Registration page ===== -->
+    <div class="page" id="page-register" data-page="register" hidden>
+      <section class="page-hero" aria-labelledby="register-title">
+        <div class="container register-layout">
+          <div class="register-aside">
+            <nav class="crumbs" aria-label="Breadcrumb"><a href="#top">Home</a><span aria-current="page">Join</span></nav>
+            <h1 class="page-title" id="register-title" tabindex="-1">Join CreativeVerse</h1>
+            <p class="lead">Create your account to take courses, share your work, and make time to grow.</p>
+            <ul class="benefits">
+              <li class="accent-create"><strong>Make something today</strong><span>Guided projects that start with a ten-minute prompt.</span></li>
+              <li class="accent-learn"><strong>Learn in small steps</strong><span>Short lessons you can finish on a break.</span></li>
+              <li class="accent-grow"><strong>Keep going</strong><span>Calm sessions that make room for rest and reflection.</span></li>
+            </ul>
+          </div>
+
+          <div class="form-card">
+            <form id="register-form" novalidate>
+              <h2 class="form-title">Create your account</h2>
+
+              <div class="field">
+                <label for="reg-name">Full name</label>
+                <input id="reg-name" name="name" type="text" autocomplete="name" required aria-invalid="false" aria-describedby="reg-name-error">
+                <p class="error" id="reg-name-error"></p>
+              </div>
+
+              <div class="field">
+                <label for="reg-email">Email</label>
+                <input id="reg-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-invalid="false" aria-describedby="reg-email-error">
+                <p class="error" id="reg-email-error"></p>
+              </div>
+
+              <div class="field">
+                <label for="reg-password">Password</label>
+                <div class="input-wrap">
+                  <input id="reg-password" name="password" type="password" autocomplete="new-password" required aria-invalid="false" aria-describedby="reg-password-hint reg-password-error">
+                  <button class="toggle-pass" type="button" aria-pressed="false" aria-controls="reg-password">Show</button>
+                </div>
+                <p class="hint" id="reg-password-hint">Use at least 8 characters.</p>
+                <p class="error" id="reg-password-error"></p>
+              </div>
+
+              <fieldset class="field">
+                <legend>What brings you here? <span class="optional">(optional)</span></legend>
+                <div class="pill-group">
+                  <label class="pill-check"><input type="checkbox" name="interest" value="Create"><span>Create</span></label>
+                  <label class="pill-check"><input type="checkbox" name="interest" value="Learn"><span>Learn</span></label>
+                  <label class="pill-check"><input type="checkbox" name="interest" value="Grow"><span>Grow</span></label>
+                  <label class="pill-check"><input type="checkbox" name="interest" value="Innovate"><span>Innovate</span></label>
+                </div>
+              </fieldset>
+
+              <div class="field">
+                <label for="reg-course">First course <span class="optional">(optional)</span></label>
+                <select id="reg-course" name="course"><option value="">Not sure yet</option></select>
+              </div>
+
+              <div class="field">
+                <label class="check" for="reg-terms">
+                  <input id="reg-terms" name="terms" type="checkbox" required aria-invalid="false" aria-describedby="reg-terms-error">
+                  <span>I agree to the terms and privacy policy.</span>
+                </label>
+                <p class="error" id="reg-terms-error"></p>
+              </div>
+
+              <button class="btn btn-primary btn-block" type="submit">Create my account</button>
+              <p class="demo-note">This is a design demo. Nothing you enter is sent or saved.</p>
+            </form>
+
+            <div class="success" id="register-success" hidden>
+              <span class="success-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              </span>
+              <h2 id="success-title" tabindex="-1">You're in!</h2>
+              <p id="success-text"></p>
+              <div class="button-row">
+                <a class="btn btn-primary" href="#courses">Browse courses</a>
+                <a class="btn btn-secondary" href="#top">Back to home</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="CreativeVerse home">
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJub25lIiB4bWxuczpjMnBhPSJodHRwOi8vYzJwYS5vcmcvbWFuaWZlc3QiPjxtZXRhZGF0YT48YzJwYTptYW5pZmVzdD5BQUFXZ21wMWJXSUFBQUFlYW5WdFpHTXljR0VBRVFBUWdBQUFxZ0E0bTNFRFl6SndZUUFBQUJaY2FuVnRZZ0FBQUVkcWRXMWtZekp0WVFBUkFCQ0FBQUNxQURpYmNRTjFjbTQ2WXpKd1lUb3lObVZtTVRCak5DMDNObU13TFRRd056Z3RZakkxTWkwMVlXRTJOVEJpWkdJeU1HUUFBQUFEbDJwMWJXSUFBQUFwYW5WdFpHTXlZWE1BRVFBUWdBQUFxZ0E0bTNFRFl6SndZUzVoYzNObGNuUnBiMjV6QUFBQUFMeHFkVzFpQUFBQVJHcDFiV1JqWW05eUFCRUFFSUFBQUtvQU9KdHhFMk15Y0dFdWFXNW5jbVZrYVdWdWRDNTJNd0FBQUFBWVl6SnphQnpXamROSVdPWmRHczhuKzhWQjZYUUFBQUJ3WTJKdmNxTnBaR002Wm05eWJXRjBiV2x0WVdkbEwzTjJaeXQ0Yld4cWFXNXpkR0Z1WTJWSlJIZ3NlRzF3T21scFpEb3hOR1poT1dNek55MHdNMkl4TFRSbE56UXRZVFJsTVMwd1pqQTBZMk5rTURWa1pUbHNjbVZzWVhScGIyNXphR2x3YUhCaGNtVnVkRTltQUFBQjRtcDFiV0lBQUFCQmFuVnRaR05pYjNJQUVRQVFnQUFBcWdBNG0zRVRZekp3WVM1aFkzUnBiMjV6TG5ZeUFBQUFBQmhqTW5Ob2pJWnRBNFpDbUdxdzUzQ05hZ21ETFFBQUFabGpZbTl5b21kaFkzUnBiMjV6Z3FKbVlXTjBhVzl1YTJNeWNHRXViM0JsYm1Wa2FuQmhjbUZ0WlhSbGNuT2hhMmx1WjNKbFpHbGxiblJ6Z2FKamRYSnNlQzF6Wld4bUkycDFiV0ptUFdNeWNHRXVZWE56WlhKMGFXOXVjeTlqTW5CaExtbHVaM0psWkdsbGJuUXVkak5rYUdGemFGZ2dBV25XSjk2aS85VTJFalRhMGlpY244dXhsaTZnaTZVYW9talRVVElhZ1JDa1ptRmpkR2x2Ym5nZFkyOXRMbUZ1ZEdoeWIzQnBZeTVqYkdGMVpHVXVjSEp2ZG1sa1pXUnFjR0Z5WVcxbGRHVnljNkY0SDJOdmJTNWhiblJvY205d2FXTXViM0pwWjJsdUxXTnZibVpwWkdWdVkyVm5kVzVyYm05M2JtdGtaWE5qY21sd2RHbHZibmhtUTJ4aGRXUmxJSEJ5YjNacFpHVmtJSFJvYVhNZ1ptbHNaU0JoZENCMGFHVWdjbVZ4ZFdWemRDQnZaaUJoSUhWelpYSWdZVzVrSUcxaGVTQm9ZWFpsSUdOeVpXRjBaV1FnYjNJZ2JXOWthV1pwWldRZ2RHaGxJR1pwYkdVZ1kyOXVkR1Z1ZEhNdWJYTnZablIzWVhKbFFXZGxiblNoWkc1aGJXVm1RMnhoZFdSbGNtRnNiRUZqZEdsdmJuTkpibU5zZFdSbFpQVUFBQURJYW5WdFlnQUFBRUJxZFcxa1kySnZjZ0FSQUJDQUFBQ3FBRGliY1JOak1uQmhMbWhoYzJndVpHRjBZUUFBQUFBWVl6SnphSzkzYUl5ZktmN1AwdDh4VG5DZFY0WUFBQUNBWTJKdmNxVmpZV3huWm5Ob1lUSTFObU53WVdSTkFBQUFBQUFBQUFBQUFBQUFBR1JvWVhOb1dDQ2hDY0g0Tzd6QVRSL0ZDK3hYZUM3dTczaU9GaWgrNS9IN0VvVS9iY0NpdG1SdVlXMWxibXAxYldKbUlHMWhibWxtWlhOMGFtVjRZMngxYzJsdmJuT0JvbVZ6ZEdGeWRCaWVabXhsYm1kMGFCa2VCQUFBQWo1cWRXMWlBQUFBSjJwMWJXUmpNbU5zQUJFQUVJQUFBS29BT0p0eEEyTXljR0V1WTJ4aGFXMHVkaklBQUFBQ0QyTmliM0tsWTJGc1oyWnphR0V5TlRacGMybG5ibUYwZFhKbGVFMXpaV3htSTJwMWJXSm1QUzlqTW5CaEwzVnlianBqTW5CaE9qSTJaV1l4TUdNMExUYzJZekF0TkRBM09DMWlNalV5TFRWaFlUWTFNR0prWWpJd1pDOWpNbkJoTG5OcFoyNWhkSFZ5WldwcGJuTjBZVzVqWlVsRWVDeDRiWEE2YVdsa09qRmpZemcwTjJJd0xUWmxaV1V0TkRjek55MDVZelF6TFRKaVpUaGxNVGt4T1RVNVkzSmpjbVZoZEdWa1gyRnpjMlZ5ZEdsdmJuT0RvbU4xY214NExYTmxiR1lqYW5WdFltWTlZekp3WVM1aGMzTmxjblJwYjI1ekwyTXljR0V1YVc1bmNtVmthV1Z1ZEM1Mk0yUm9ZWE5vV0NBQmFkWW4zcUwvMVRZU05OclNLSnlmeTdHV0xxQ0xwUnFpYU5OUk1ocUJFS0pqZFhKc2VDcHpaV3htSTJwMWJXSm1QV015Y0dFdVlYTnpaWEowYVc5dWN5OWpNbkJoTG1GamRHbHZibk11ZGpKa2FHRnphRmdnRzF0cUkwa2wvUzRJNHRBOTFkOG5VekV2SmxUcmpBR2I0VWczUTFhQUFnbWlZM1Z5YkhncGMyVnNaaU5xZFcxaVpqMWpNbkJoTG1GemMyVnlkR2x2Ym5Ndll6SndZUzVvWVhOb0xtUmhkR0ZrYUdGemFGZ2dERTlUaVNINDBXNG4wcFA5d2VSS0ZGdWdPMklKZUYyOTAyczA3aXk2WWJ4MFkyeGhhVzFmWjJWdVpYSmhkRzl5WDJsdVptK2paRzVoYldWdlFXNTBhSEp2Y0dsaklFWnBiR1Z6WjNabGNuTnBiMjVsTVM0d0xqQnJjM0JsWTFabGNuTnBiMjVsTWk0MExqQUFBQkE0YW5WdFlnQUFBQ2hxZFcxa1l6Smpjd0FSQUJDQUFBQ3FBRGliY1FOak1uQmhMbk5wWjI1aGRIVnlaUUFBQUJBSVkySnZjdEtFV1FJU29nRW1HQ0ZaQWdvd2dnSUdNSUlCamFBREFnRUNBaFJBNWFBSzdzSTUwTDY0Zy9vR1FnVTlaMVVUQURBS0JnZ3Foa2pPUFFRREF6QkpNUmN3RlFZRFZRUUtFdzVCYm5Sb2NtOXdhV01zSUZCQ1F6RXVNQ3dHQTFVRUF4TWxRVzUwYUhKdmNHbGpJRU52Ym5SbGJuUWdRM0psWkdWdWRHbGhiSE1nVW05dmRDQkRRVEFlRncweU5qQTRNRGN4T0RRek5UWmFGdzB5T0RBNE1EWXhPVFF6TlRaYU1FUXhGekFWQmdOVkJBb1REa0Z1ZEdoeWIzQnBZeXdnVUVKRE1Ta3dKd1lEVlFRREV5QkJiblJvY205d2FXTWdRMnhoZFdSbElFTnZiblJsYm5RZ1UybG5ibWx1WnpCWk1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhBMElBQkpoNkNtdkxVQmdGRk5VMHZVS2xPVnRFNmRqZDE3TDVTdXdYMExlbUZpc0JNM2RrZC8zY3lqeEZBM1FvNVM0NmZYMC9paFkwVlo3bWZiOUtGNzAzdDVPaldEQldNQTRHQTFVZER3RUIvd1FFQXdJSGdEQVZCZ05WSFNVRURqQU1CZ29yQmdFRUFZUG9YZ0lCTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVemxIaUJJRk9aRnNqK09QRXo1bytuTUhYWE1Jd0NnWUlLb1pJemowRUF3TURad0F3WkFJd01YTWRGSjRCZXRMTFZZN09SdUU5bm9xYmJBWk9abi9hQXJYeVR3RkFaZktyUHp4RjJ2UG9KTmYxK1VDZGcxWEdBakJ3WDF6ZDlXR3FZa3FtTDVTRnF3MVF5U2pyMXpKZnBKTTkrMXJkRHdTUExNT1BPakt1aVhqb1UvcFVVZUc5UndtaFkzQmhaRmtObmdBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFQWllRTnc2WVZKWGlDQVA4R0F3YUwwYU5IZ05JQ1NIdXBLL0M5UHdmbFJtTWVnTDU5S0EvSzZzUmhxWXNqMjBqbmFWdjRPem92WitQaHduYXYzaWp0TG8zQWs9PC9jMnBhOm1hbmlmZXN0PjwvbWV0YWRhdGE+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iNCIgeTE9IjQiIHgyPSIyOCIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzc5NTdGRiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzU1RTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxlbGxpcHNlIGN4PSIxNiIgY3k9IjE2IiByeD0iMTMiIHJ5PSI2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggMTYgMTYpIiBzdHJva2U9InVybCgjZykiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjYiIGZpbGw9InVybCgjZykiLz48Y2lyY2xlIGN4PSIyNy41IiBjeT0iOS45IiByPSIyLjUiIGZpbGw9IiNGRjgwNjYiLz48L3N2Zz4=" alt="" width="32" height="32">
+            <span>CreativeVerse</span>
+          </a>
+          <p>Create. Learn. Grow. A place for ideas that deserve room.</p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Platform</h3>
+          <ul>
+            <li><a href="#courses/create">Create</a></li>
+            <li><a href="#courses/learn">Learn</a></li>
+            <li><a href="#courses/grow">Grow</a></li>
+            <li><a href="#courses/innovate">Innovate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#top">About</a></li>
+            <li><a href="#stories">Stories</a></li>
+            <li><a href="mailto:hello@creativeverse.example">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#top">Help center</a></li>
+            <li><a href="#top">Community guidelines</a></li>
+            <li><a href="#top">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; <span id="year">2026</span> CreativeVerse. A design concept for the CodeOrbit project.</span>
+        <span>Made with care for makers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+/* ==========================================================================
+   CreativeVerse — script
+   1 Menu · 2 Header · 3 Courses · 4 Registration · 5 Page routing ·
+   6 Active link · 7 Radius demo · 8 Reduced motion · 9 Year
+   ========================================================================== */
+(function () {
+  "use strict";
+
+  const $ = (selector, root) => (root || document).querySelector(selector);
+  const $$ = (selector, root) => Array.from((root || document).querySelectorAll(selector));
+
+  const header = $(".site-header");
+  const toggle = $(".nav-toggle");
+  const menu = $("#site-menu");
+  const menuLinks = $$('a[href^="#"]', menu);
+
+  /* 1. Mobile menu ------------------------------------------------------- */
+  const isMenuOpen = () => toggle.getAttribute("aria-expanded") === "true";
+  function setMenu(open) {
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    menu.setAttribute("data-open", String(open));
+  }
+  toggle.addEventListener("click", () => setMenu(!isMenuOpen()));
+  menuLinks.forEach((link) => link.addEventListener("click", () => setMenu(false)));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && isMenuOpen()) {
+      setMenu(false);
+      toggle.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (isMenuOpen() && !header.contains(event.target)) setMenu(false);
+  });
+  window.matchMedia("(min-width: 901px)").addEventListener("change", (event) => {
+    if (event.matches) setMenu(false);
+  });
+
+  /* 2. Header state on scroll -------------------------------------------- */
+  const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+
+  /* 3. Courses ------------------------------------------------------------ */
+  const PILLARS = { create: "Create", learn: "Learn", grow: "Grow", innovate: "Innovate" };
+  const COURSES = [
+    { id: "drawing-basics", pillar: "create", title: "Drawing basics, ten minutes a day", level: "Beginner", weeks: 4, lessons: 12,
+      desc: "Build a daily drawing habit with short prompts on line, shape, and shading." },
+    { id: "color-and-mood", pillar: "create", title: "Color and mood", level: "Beginner", weeks: 3, lessons: 9,
+      desc: "See how palettes change feeling, then paint three small scenes of your own." },
+    { id: "digital-illustration", pillar: "create", title: "Digital illustration studio", level: "Intermediate", weeks: 6, lessons: 18,
+      desc: "Move from sketch to finished piece with layers, brushes, and clean export." },
+    { id: "design-foundations", pillar: "learn", title: "Design foundations", level: "Beginner", weeks: 5, lessons: 15,
+      desc: "Learn layout, type, and spacing, and finish with a one-page poster." },
+    { id: "learn-how-to-learn", pillar: "learn", title: "Learning how to learn", level: "Beginner", weeks: 2, lessons: 6,
+      desc: "Study habits for makers: plan small, practice often, and review what sticks." },
+    { id: "mindful-making", pillar: "grow", title: "Mindful making", level: "Beginner", weeks: 2, lessons: 8,
+      desc: "Short guided sessions that pair drawing with slow breathing and reflection." },
+    { id: "creative-journaling", pillar: "grow", title: "Creative journaling", level: "Beginner", weeks: 3, lessons: 10,
+      desc: "Prompts and page layouts for noticing ideas and keeping track of progress." },
+    { id: "first-web-page", pillar: "innovate", title: "Your first web page", level: "Beginner", weeks: 4, lessons: 14,
+      desc: "Turn a sketch into a live page with HTML and CSS." },
+    { id: "interactive-art", pillar: "innovate", title: "Interactive art with code", level: "Intermediate", weeks: 6, lessons: 16,
+      desc: "Make drawings that react to the mouse and keyboard using JavaScript." }
+  ];
+
+  const grid = $("#course-grid");
+  const countEl = $("#course-count");
+  const emptyEl = $("#course-empty");
+  const searchEl = $("#course-search");
+  const filterButtons = $$("[data-filter]");
+  const state = { pillar: "all", query: "" };
+
+  const courseCard = (c) => `
+    <article class="course-card accent-${c.pillar}">
+      <span class="tag"><i></i>${PILLARS[c.pillar]}</span>
+      <h3>${c.title}</h3>
+      <p>${c.desc}</p>
+      <ul class="course-meta"><li>${c.level}</li><li>${c.weeks} weeks</li><li>${c.lessons} lessons</li></ul>
+      <a class="btn btn-primary btn-sm" href="#register/${c.id}">Enroll in this course</a>
+    </article>`;
+
+  function renderCourses() {
+    const q = state.query.trim().toLowerCase();
+    const list = COURSES.filter((c) => {
+      const inPillar = state.pillar === "all" || c.pillar === state.pillar;
+      const haystack = (c.title + " " + c.desc + " " + PILLARS[c.pillar] + " " + c.level).toLowerCase();
+      return inPillar && (!q || haystack.includes(q));
+    });
+    grid.innerHTML = list.map(courseCard).join("");
+    const noun = list.length === 1 ? "course" : "courses";
+    countEl.textContent = list.length + " " + noun + (state.pillar !== "all" ? " in " + PILLARS[state.pillar] : "");
+    emptyEl.hidden = list.length > 0;
+    grid.hidden = list.length === 0;
+  }
+
+  function setPillar(pillar) {
+    state.pillar = pillar;
+    filterButtons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.filter === pillar)));
+    renderCourses();
+  }
+
+  filterButtons.forEach((b) => b.addEventListener("click", () => setPillar(b.dataset.filter)));
+  searchEl.addEventListener("input", () => { state.query = searchEl.value; renderCourses(); });
+  $("#reset-filters").addEventListener("click", () => {
+    searchEl.value = "";
+    state.query = "";
+    setPillar("all");
+  });
+
+  /* 4. Registration ------------------------------------------------------- */
+  const form = $("#register-form");
+  const success = $("#register-success");
+  const courseSelect = $("#reg-course");
+  const passInput = $("#reg-password");
+  const passToggle = $(".toggle-pass");
+
+  Object.keys(PILLARS).forEach((key) => {
+    const group = document.createElement("optgroup");
+    group.label = PILLARS[key];
+    COURSES.filter((c) => c.pillar === key).forEach((c) => {
+      const option = document.createElement("option");
+      option.value = c.id;
+      option.textContent = c.title;
+      group.appendChild(option);
+    });
+    courseSelect.appendChild(group);
+  });
+
+  const rules = {
+    "reg-name": (el) => (el.value.trim().length >= 2 ? "" : "Enter your full name."),
+    "reg-email": (el) => (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim()) ? "" : "Enter a valid email, like name@example.com."),
+    "reg-password": (el) => (el.value.length >= 8 ? "" : "Use at least 8 characters."),
+    "reg-terms": (el) => (el.checked ? "" : "Please agree to the terms to continue.")
+  };
+
+  function setError(el, message) {
+    $("#" + el.id + "-error").textContent = message;
+    el.setAttribute("aria-invalid", message ? "true" : "false");
+    el.closest(".field").classList.toggle("has-error", Boolean(message));
+  }
+  function validate(el) {
+    const message = rules[el.id](el);
+    setError(el, message);
+    return !message;
+  }
+
+  Object.keys(rules).forEach((id) => {
+    const el = $("#" + id);
+    const eventName = el.type === "checkbox" ? "change" : "input";
+    el.addEventListener("blur", () => { el.dataset.touched = "1"; validate(el); });
+    el.addEventListener(eventName, () => { if (el.dataset.touched) validate(el); });
+  });
+
+  passToggle.addEventListener("click", () => {
+    const show = passInput.type === "password";
+    passInput.type = show ? "text" : "password";
+    passToggle.textContent = show ? "Hide" : "Show";
+    passToggle.setAttribute("aria-pressed", String(show));
+  });
+
+  function resetRegister(courseId) {
+    form.reset();
+    Object.keys(rules).forEach((id) => {
+      const el = $("#" + id);
+      delete el.dataset.touched;
+      setError(el, "");
+    });
+    passInput.type = "password";
+    passToggle.textContent = "Show";
+    passToggle.setAttribute("aria-pressed", "false");
+    form.hidden = false;
+    success.hidden = true;
+    if (courseId && COURSES.some((c) => c.id === courseId)) courseSelect.value = courseId;
+  }
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    let firstInvalid = null;
+    Object.keys(rules).forEach((id) => {
+      const el = $("#" + id);
+      el.dataset.touched = "1";
+      if (!validate(el) && !firstInvalid) firstInvalid = el;
+    });
+    if (firstInvalid) {
+      firstInvalid.focus();
+      return;
+    }
+    const firstName = $("#reg-name").value.trim().split(/\s+/)[0];
+    const course = COURSES.find((c) => c.id === courseSelect.value);
+    $("#success-title").textContent = "You're in, " + firstName + "!";
+    $("#success-text").textContent =
+      "Your CreativeVerse account is ready." +
+      (course ? " Your first course is " + course.title + "." : " Browse the courses to pick your first one.") +
+      " This is a design demo, so no real account was created.";
+    form.hidden = true;
+    success.hidden = false;
+    $("#success-title").focus();
+  });
+
+  /* 5. Page routing (hash based) ----------------------------------------- */
+  const pages = { home: $("#page-home"), courses: $("#page-courses"), register: $("#page-register") };
+  const titles = {
+    home: "CreativeVerse: Create. Learn. Grow.",
+    courses: "Courses | CreativeVerse",
+    register: "Join CreativeVerse"
+  };
+  let current = null;
+
+  function showPage(name) {
+    const changed = current !== name;
+    Object.keys(pages).forEach((key) => { pages[key].hidden = key !== name; });
+    document.title = titles[name];
+    current = name;
+    menuLinks.forEach((a) => a.removeAttribute("aria-current"));
+    const link = menuLinks.find((a) => a.getAttribute("href") === "#" + name);
+    if (link && name !== "home") link.setAttribute("aria-current", "true");
+    return changed;
+  }
+  const jumpTop = () => window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  const focusHeading = (selector) => { const el = $(selector); if (el) el.focus({ preventScroll: true }); };
+
+  function route(initial) {
+    const parts = location.hash.replace(/^#\/?/, "").split("/");
+    const key = parts[0];
+
+    if (key === "courses") {
+      const changed = showPage("courses");
+      setPillar(PILLARS[parts[1]] ? parts[1] : "all");
+      if (changed) { jumpTop(); if (!initial) focusHeading("#courses-title"); }
+    } else if (key === "register") {
+      const changed = showPage("register");
+      if (changed || parts[1]) resetRegister(parts[1]);
+      if (changed) { jumpTop(); if (!initial) focusHeading("#register-title"); }
+    } else if (key === "contact") {
+      if (!current) showPage("home");
+      $("#contact").scrollIntoView();
+    } else if (key === "main") {
+      // Skip link: stay on the current page and jump to its content
+      if (!current) showPage("home");
+      $("#main").scrollIntoView();
+    } else {
+      const changed = showPage("home");
+      const target = key ? document.getElementById(key) : null;
+      if (target && pages.home.contains(target)) {
+        target.scrollIntoView({ behavior: changed ? "instant" : "smooth" });
+      } else if (changed || !key) {
+        jumpTop();
+      }
+    }
+  }
+  window.addEventListener("hashchange", () => route(false));
+
+  /* 6. Highlight the nav link for the home section in view ---------------- */
+  const sections = $$("#page-home section[id]");
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (current !== "home") return;
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          menuLinks.forEach((link) => {
+            if (link.getAttribute("href") === "#" + entry.target.id) {
+              link.setAttribute("aria-current", "true");
+            } else {
+              link.removeAttribute("aria-current");
+            }
+          });
+        });
+      },
+      { rootMargin: "-45% 0px -50% 0px" }
+    );
+    sections.forEach((section) => observer.observe(section));
+  }
+
+  /* 7. Interactive radius demo (style guide) ------------------------------ */
+  const radiusDemo = $("#radius-demo");
+  const radiusRange = $("#radius-range");
+  const radiusValue = $("#radius-value");
+  const presetButtons = $$("[data-radius]");
+
+  function setRadius(value, isPreset) {
+    const px = Number(value);
+    radiusDemo.style.setProperty("--demo-radius", px + "px");
+    radiusRange.value = Math.min(px, Number(radiusRange.max));
+    radiusValue.textContent = px >= 999 ? "Pill" : px + " px";
+    presetButtons.forEach((b) => b.setAttribute("aria-pressed", String(Number(b.dataset.radius) === px)));
+  }
+  radiusRange.addEventListener("input", () => setRadius(radiusRange.value));
+  presetButtons.forEach((b) => b.addEventListener("click", () => setRadius(b.dataset.radius)));
+
+  /* 8. Pause the orbiting planets for people who prefer less motion ------- */
+  const art = $(".hero-art > svg");
+  const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  function applyMotionPreference() {
+    if (!art || typeof art.pauseAnimations !== "function") return;
+    if (motion.matches) art.pauseAnimations(); else art.unpauseAnimations();
+  }
+  applyMotionPreference();
+  motion.addEventListener("change", applyMotionPreference);
+
+  /* 9. Footer year -------------------------------------------------------- */
+  $("#year").textContent = new Date().getFullYear();
+
+  /* Start */
+  renderCourses();
+  route(true);
+})();
+  </script>
+</body>
+</html>

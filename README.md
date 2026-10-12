@@ -1,4 +1,4 @@
-# 🎨 UI/UX Designer Portfolio – Creative Design Showcase
+# 🎨 UI/UX Designer Portfolio Landing Page – Creative Design Showcase
 
 ## 📌 Project Overview
 
@@ -45,7 +45,7 @@ The platform provides a clean and elegant interface for presenting a designer's 
 
 ## 📂 Repository Link
 
-[Add your GitHub repository link here]
+https://github.com/FatemaBohari13/CodeOrbit_LandingPage02/
 
 ## 🎯 Learning Outcomes
 

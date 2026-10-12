@@ -41,7 +41,7 @@ The platform provides a clean and elegant interface for presenting a designer's 
 
 ## 🌐 Live Demo
 
-[Add your GitHub Pages link here]
+https://fatemabohari13.github.io/CodeOrbit_LandingPage02/
 
 ## 📂 Repository Link
 
